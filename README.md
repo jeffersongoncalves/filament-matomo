@@ -15,8 +15,8 @@ A simple and elegant Laravel package that seamlessly integrates Matomo Analytics
 ## Requirements
 
 - PHP 8.2 or higher
-- Laravel 11.0 or 12.0
-- Filament 4.0
+- Laravel 11.0 or higher
+- Filament 5.0
 
 ## Installation
 
