@@ -12,7 +12,8 @@ class MatomoServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
-        $package->name('filament-matomo');
+        $package->name('filament-matomo')
+            ->hasTranslations();
     }
 
     public function packageRegistered(): void
