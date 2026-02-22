@@ -4,9 +4,6 @@ namespace JeffersonGoncalves\Filament\Matomo;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
-use Filament\Support\Facades\FilamentView;
-use Filament\View\PanelsRenderHook;
-use Illuminate\Contracts\View\View;
 use JeffersonGoncalves\Filament\Matomo\Pages\ManageMatomoSettings;
 
 class MatomoPlugin implements Plugin
@@ -29,10 +26,7 @@ class MatomoPlugin implements Plugin
 
     public function boot(Panel $panel): void
     {
-        FilamentView::registerRenderHook(
-            PanelsRenderHook::HEAD_END,
-            fn (): View => view('matomo::script'),
-        );
+        //
     }
 
     public static function make(): static
