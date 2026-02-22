@@ -1,6 +1,6 @@
 {
     "name": "jeffersongoncalves/filament-matomo",
-    "description": "A simple and elegant Laravel package that seamlessly integrates Matomo Analytics tracking code into your filament panel.",
+    "description": "Filament plugin for Matomo Analytics with Settings Page — manage tracking configuration directly from your Filament panel via spatie/laravel-settings.",
     "keywords": [
         "jeffersongoncalves",
         "laravel",
@@ -18,7 +18,8 @@
     "require": {
         "php": "^8.2",
         "filament/filament": "^5.0",
-        "jeffersongoncalves/laravel-matomo": "^1.0",
+        "filament/spatie-laravel-settings-plugin": "^5.0",
+        "jeffersongoncalves/laravel-matomo": "^2.0",
         "spatie/laravel-package-tools": "^1.14.0"
     },
     "require-dev": {
