@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## v3.1.0 - 2026-02-22
+
+### What's New
+
+- **MatomoPlugin class**: Register the plugin in your PanelProvider with `MatomoPlugin::make()`
+- **Settings Page**: Manage Matomo tracking configuration directly from your Filament panel
+- **Translations**: English and Brazilian Portuguese (pt_BR) support
+- **spatie/laravel-settings**: Database-backed settings via `filament/spatie-laravel-settings-plugin`
+- **Toggle settings page**: Use `->settingsPage(false)` to disable the settings page
+
+#### Requirements
+
+- Filament 5.x
+- laravel-matomo ^2.0
+
 ## v3.0.0 - 2026-02-16
 
 ### What's Changed
