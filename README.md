@@ -9,6 +9,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-matomo.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-matomo)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-matomo/fix-php-code-style-issues.yml?branch=2.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-matomo/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A2.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-matomo.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-matomo)
+[![License](https://img.shields.io/packagist/l/jeffersongoncalves/filament-matomo.svg?style=flat-square)](LICENSE.md)
 
 Filament plugin for Matomo Analytics with **Settings Page** — manage tracking configuration directly from your Filament panel via [spatie/laravel-settings](https://github.com/spatie/laravel-settings).
 
@@ -28,6 +29,8 @@ Filament plugin for Matomo Analytics with **Settings Page** — manage tracking 
 | 3.x    | ^5.0     | ^8.2  |
 
 ## Installation
+
+You can install the package via composer:
 
 Install the package via Composer:
 
