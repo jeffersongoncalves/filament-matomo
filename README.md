@@ -15,6 +15,15 @@
 
 Filament plugin for Matomo Analytics with **Settings Page** — manage tracking configuration directly from your Filament panel via [spatie/laravel-settings](https://github.com/spatie/laravel-settings).
 
+### Navigation group
+
+Put the settings page in one of your panel's own navigation groups (a string or a closure):
+
+```php
+MatomoPlugin::make()
+    ->navigationGroup(fn (): string => __('admin.navigation.settings')),
+```
+
 ## Requirements
 
 - PHP 8.2 or higher
