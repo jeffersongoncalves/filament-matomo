@@ -4,9 +4,9 @@ use Filament\Facades\Filament;
 use Filament\Support\Facades\FilamentView;
 use Filament\View\PanelsRenderHook;
 use Illuminate\Foundation\Auth\User;
-use JeffersonGoncalves\Matomo\Settings\MatomoSettings;
 use JeffersonGoncalves\Filament\Matomo\MatomoPlugin;
 use JeffersonGoncalves\Filament\Matomo\Pages\ManageMatomoSettings;
+use JeffersonGoncalves\Matomo\Settings\MatomoSettings;
 use Livewire\Livewire;
 
 beforeEach(function () {
